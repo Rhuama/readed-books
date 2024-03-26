@@ -4,7 +4,7 @@ import { reactive, ref } from 'vue';
 import BooksProgress from './components/BooksProgress.vue'
 import AddBook from './components/AddBook.vue';
 
-let books = reactive([
+const books = reactive([
   {
     id: 1,
     title: "History of Europe",
@@ -42,6 +42,7 @@ let books = reactive([
     author: "Daniel Trejo",
   },
 ])
+
 
 function addBook(newBook) {
   newBook.id = Math.max(...books.map(el => el.id) + 1 );
