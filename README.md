@@ -9,13 +9,18 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Getting Started
 
 
-First, install the dependences:
+First walk in to the folder compositionAPI:
+
+```bash
+cd compositionAPI/
+```
+
+After, install the dependences:
 
 ```bash
 npm install
 ```
-
-After run the development server:
+Finally run the development server:
 
 ```bash
 npm run dev
